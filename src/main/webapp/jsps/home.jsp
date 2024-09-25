@@ -2,24 +2,29 @@
 <%@ page import="java.net.*" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-<head>
+<head> 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>MithunTechnologies- Home Page</title>
 <link href="images/mithunlogo.jpg" rel="icon">
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to Mithun  Ltd. Ph No: +91-9980923226 ,+91-9900012028,Bengaluru,Karnataka,India</h1>
-<h1 align="center"> Mithun Technologies- Very Good center for DevOps AWS & AWS Solution Architect & in Bangalore India.Teaching Real Time scnerios</h1>
+<h1 align="center">Welcome to micro Software Solutions. Manglore jayanagar,Karnataka </h1>
+<h1 align="center">  CHARANI WEB1 ADDED and Azure along with this  all in one  in manglore India and also for Job Assitance Job Support also...Teaching Real Time scnerios</h1>
 <hr>
 <br>
-	<h1><h3> Server Side IP Address </h3><br>
-
+<h1><h3> Server Side IP Address </h3><br>
+ 
 <% 
+
 String ip = "";
+
 InetAddress inetAddress = InetAddress.getLocalHost();
+
 ip = inetAddress.getHostAddress();
+
 out.println("Server Host Name :: "+inetAddress.getHostName()); 
+
 %>
 <br>
 <%out.println("Server IP Address :: "+ip);%>
@@ -30,25 +35,30 @@ out.println("Server Host Name :: "+inetAddress.getHostName());
 <%out.print( "Client Name Host :: "+ request.getRemoteHost() );%><br></h1>
 <hr>
 <div style="text-align: center;">
-	<span>
-		<img src="images/mithunlogo.jpg" alt="" width="100">
-	</span>
-	<span style="font-weight: bold;">
-		Mithun Technologies, 
-		Martha Halli, Above ICICI Bank, Beside Meghana Foods,
-		Bangalore,
-		+91-9980923226,+91-9900012028
-		devopstrainingblr@gmail.com
-		<br>
-		<a href="mailto:devopstrainingblr@gmail.com">Mail to Mithun Technologies</a>
-	</span>
+<span>
+<img src="images/mithunlogo.jpg" alt="" width="100">
+</span>
+<span style="font-weight: bold;">
+
+		Micro Technologies, 
+
+		Manglore,
+
+		+91-9538775515
+
+		jkkiran06@gmail.com
+<br>
+<a href="mailto:jkkiran06@gmail.com">Mail to micro Technologies</a>
+</span>
 </div>
 <hr>
-	<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
+<p> Service : <a href="services/employee/getEmployeeDetails">Get Employee Details </p>
 <hr>
 <hr>
-<p align=center>Mithun Technologies - Consultant, Training, Development Center.</p>
-<p align=center><small>Copyrights 2022 by <a href="http://mithuntechnologies.com/">Mithun Technologies,Bengaluru</a> </small></p>
-
+<p align=center>micro Technologies - Consultant, Training, Development Center.</p>
+<p align=center><small>Copyrights 2019 by <a href="http://micro.com/">micro Technologies</a> </small></p>
+ 
 </body>
 </html>
+
+ 
